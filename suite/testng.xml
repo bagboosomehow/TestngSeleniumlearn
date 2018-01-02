@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="atesing" verbose="1" >
+  <parameter name="aaa" value ="123"></parameter>
+  <test name="atesting" >
+    <classes>
+       <class name="com.selenium3.LoginTest" />
+       <!--<class name="com.selenium3.TestNGSeleniumDD2"></class>-->
+    </classes>
+  </test>
+
+</suite>
